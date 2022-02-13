@@ -1,0 +1,138 @@
+body{
+    font-family: "Montserrat";
+}
+#title {
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+.tx{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 35% 7%;
+}
+
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Montserrat-Light";
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.title-image{
+    width:30%;
+    transform: rotate(30deg);
+    position: absolute;
+    right:30%;
+}
+.cor-img{
+    width:150px;
+    position: relative;
+
+}
+/* feature section */
+
+#features {
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+}
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+.op{
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+}
+#features p{
+    color:grey;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color:#ff4c68;
+}
+#testimonials{
+    background-color:#ef8172;
+    text-align: center;
+    padding:7% 15%;
+    color:#fff;
+
+}
+.test-img{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: bottom 3%;
+}
+.press-logo{
+    background-color: #ef8172;
+    width:15%;
+    margin:20px 30px 50px
+}
+#testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding:3% 2%;
+    
+}
+h3 .jn{
+    font-family: 'Montserrat', sans-serif;
+    font: weight 800px;
+}
+#cta{
+    background-color:#ff4c68;
+    color:#fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font: weight 800px;
+}
+@media(max-width:1028px)
+{   
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+}
+.User_ID_Style {
+    visibility: hidden;
+}
